@@ -1,0 +1,12 @@
+[data-role="browse_songlist_content"]{
+	min-height: auto;
+}
+[data-role="browse_songlist_content"] > output{
+    background-color: whitesmoke;
+    padding: 24px 36px;
+    margin: 0 auto;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}

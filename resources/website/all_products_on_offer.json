@@ -1,0 +1,38 @@
+ {
+ 	"product_item_arr": [{
+		"product_name_str": "COLOR*IZ",
+		"product_id_str": "a444",
+		"price_in_cents_int": 250000,
+		"description_str":"COLOR*IZ” is the first Korean mini album by IZ*ONE as well as their debut album.",
+		"tag_str_arr": ["album","on offer"],
+		"special_int": 1
+	},{
+		"product_name_str":  "HEART*IZ",
+		"product_id_str": "a447",
+		"price_in_cents_int": 300000,
+		"description_str": "HEART*IZ is the second extended play (EP) by IZ*ONE",
+		"tag_str_arr": ["album", "on offer2"],
+		"special_int": 1
+	},{
+		"product_name_str": "BLOOM*IZ",
+		"product_id_str": "a448",
+		"price_in_cents_int": 495000,
+		"description_str": "BLOOM*IZ is the first and only Korean-language studio album by IZ*ONE!",
+		"tag_str_arr": ["album", "on offer"],
+		"special_int": 1
+	},{
+		"product_name_str": "ONEIRIC",
+		"product_id_str": "a452",
+		"price_in_cents_int": 490000,
+		"description_str": "Oneiric Diary is the third extended play by IZ*ONE",
+		"tag_str_arr": ["album", "on offer"],
+		"special_int": 1
+	},{
+		"product_name_str": "ONE*REELER",
+		"product_id_str": "a455",
+		"price_in_cents_int": 395000,
+		"description_str": "One-reeler / Act IV is the fourth and final extended play by IZ*ONE",
+		"tag_str_arr":["album", "on offer"],
+		"special_int": 1
+	}]
+}

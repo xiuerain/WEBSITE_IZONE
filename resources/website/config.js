@@ -1,0 +1,4 @@
+window.CSONGLIST_CONFIG = {
+	API_GW_BASE_URL_STR: null,
+	COGNITO_LOGIN_BASE_URL_STR: null
+};

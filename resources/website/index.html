@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+	<head>
+		<title>IZ*ONE website</title>
+		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Dots&display=swap" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"> -->
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/navigation.css" />
+		<link rel="stylesheet" href="styles/album.css" />
+		<link rel="stylesheet" href="styles/songlist.css" />
+		<link rel="stylesheet" href="styles/beans.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	</head>
+	<body>
+		<section>
+			<header data-expanded="not_expanded">
+				<h1>
+					IZ*ONE
+					<!-- <img src="images/logo.png" /> -->
+				</h1>
+				<span data-action="toggle_navigation"></span>
+				<ul>
+					<li data-action="go_to" data-role="about_us">about us</li>
+					<li data-action="go_to" data-role="browse_album">album</li>
+					<li data-action="go_to" data-role="buy_songlist">song list</li>
+					<li data-action="go_to" data-role="contact_us">contact us</li>
+				</ul>
+				<aside data-action="attempt_login">login</aside>
+			</header>
+			<div class="main_image"></div>
+			<span data-role2="special_highlight" data-action="go_to" data-role="browse_album">
+				IZ*ONE Group gen 4 
+				<div></div>
+			</span>
+			<main>
+
+				<section data-role="about_us_content">
+					<a name="about_us">back_to_top</a>
+					<h2>About Us</h2>
+					<p>
+						Welcome!
+						<br><br>
+						IZ*ONE was a South Korean–Japanese girl group formed through the Mnet reality competition show Produce 48.
+						<br><br>
+						The group was composed of twelve members: Jang Won-young, Sakura Miyawaki, Jo Yu-ri, Choi Ye-na, An Yu-jin, Nako Yabuki, Kwon Eun-bi, Kang Hye-won, Hitomi Honda, Kim Chae-won, Kim Min-ju and Lee Chae-yeon. 
+					</p>
+				</section>
+
+				<section data-role="browse_album_content">
+					<a name="browse_album">back to top</a>
+					<h2>Album</h2>
+					<aside>
+						Take a look at the album !!
+					</aside>
+					<span data-selected="not_selected" data-action="show_all">view all</span>
+					<span data-selected="selected" data-action="show_on_offer">on offer</span>
+					<output data-role="albus"></output>
+				</section>
+
+				<section data-role="browse_songlist_content">
+					<a name="buy_songlist">back to top</a>
+					<h2>song list</h2>
+					<aside>
+						<br>
+						&nbsp;&nbsp;
+						We offer the JKT48 album, filled with their songs that showcase their talent and passion.  
+						<br>
+						&nbsp;&nbsp;
+						Experience the magic of JKT48 with this album, and let their music take you on a journey of joy and inspiration.
+						<br><br><br>
+					</aside>
+				</section>
+
+				<section data-role="contact_us_content">
+					<a name="contact_us">back to top</a>
+					<h2>contact us</h2>
+					<p>
+						On South Korea
+					</p>
+					<p>
+						Twitter: official_izone<br>
+						Instagram: official_izone<br>
+					</p>
+				</section>
+			</main>
+			<footer>
+				<span>&copy; 2024, Web IZ*ONE Fanmade. All rights reserved.</span>
+			</footer>
+		</section>
+		<script src="config.js"></script>
+		<script src="scripts/jquery-3.6.0.min.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/navigation.js"></script>
+		<script src="scripts/album.js"></script>
+		<script src="scripts/songlist.js"></script>
+	</body>
+</html>
